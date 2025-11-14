@@ -4,3 +4,4 @@ import datetime
 import os
 
 # Entry message
+print('Simple alarm')
