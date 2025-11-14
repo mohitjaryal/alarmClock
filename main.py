@@ -6,4 +6,4 @@ import os
 # Entry message
 print('Simple alarm clock !')
 
-# User 
+# User input
