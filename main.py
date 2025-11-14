@@ -20,4 +20,6 @@ print('Alarm set for :',alarm_time)
 # main logic
 while True:
     now = datetime.datetime.now() # current time
-    
+
+    if(now.hour == alarm_hour and
+       now.minute ==  alarm_minute)
