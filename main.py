@@ -4,10 +4,10 @@ import datetime
 import os
 
 # Entry message
-print('Simple alarm clock !')
+print('Simple alarm clock!')
 
 # User input
-alarm_time = input('Enter time (HH:MM:SS):') # hour:minute:second
+alarm_time = input('Enter time (HH:MM:SS): ')  # keep as string
 
 # Extract hour, minute, second
 alarm_hour = int(alarm_time[0:2])
@@ -15,20 +15,21 @@ alarm_minute = int(alarm_time[3:5])
 alarm_second = int(alarm_time[6:8])
 
 # Display 
-print('Alarm set for :',alarm_time)
+print('Alarm set for :', alarm_time)
 
 # main logic
 while True:
-    now = datetime.datetime.now() # current time
+    now = datetime.datetime.now()  # current time
 
-    if(now.hour == alarm_hour and
-       now.minute ==  alarm_minute and
-       now.second == alarm_second):
-        
-        # Time's up message
+    if (now.hour == alarm_hour and
+        now.minute == alarm_minute and
+        now.second == alarm_second):
+
         print("Time's up !!")
 
-        # Voice alert
+        # Voice alert for macOS
         os.system("say 'Time is up sir! Your alarm is ringing'")
 
-        time.sleep(1) # pause program for 1 second
+        break  # stop the loop
+
+    time.sleep(1)  # pause program for 1 second
