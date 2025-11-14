@@ -29,4 +29,4 @@ while True:
         print("Time's up !!")
 
         # Voice alert
-        
+        os.system("Time's up Sir ! Your alarm is ringing")
