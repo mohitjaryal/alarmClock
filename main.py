@@ -16,3 +16,5 @@ alarm_second = int(alarm_time[6:8])
 
 # Display 
 print('Alarm set for :',alarm_time)
+
+# main logic
