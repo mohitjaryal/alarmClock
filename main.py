@@ -19,4 +19,5 @@ print('Alarm set for :',alarm_time)
 
 # main logic
 while True:
-    now = datetime.datetime.now()
+    now = datetime.datetime.now() # current time
+    
