@@ -2,3 +2,5 @@
 import time
 import datetime
 import os
+
+# Entry message
