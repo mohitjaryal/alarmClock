@@ -7,4 +7,4 @@ import os
 print('Simple alarm clock !')
 
 # User input
-print(int(input('Enter time : (HH:MM:SS)')))
+print(int(input('Enter time : (HH:MM:SS)'))) # hour,minute,seconds
