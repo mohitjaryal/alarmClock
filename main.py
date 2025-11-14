@@ -4,4 +4,4 @@ import datetime
 import os
 
 # Entry message
-print('Simple alarm')
+print('Simple alarm clock !')
