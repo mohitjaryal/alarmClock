@@ -7,3 +7,4 @@ import os
 print('Simple alarm clock !')
 
 # User input
+print(int(input('')))
