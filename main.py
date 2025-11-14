@@ -27,4 +27,6 @@ while True:
         
         # Time's up message
         print("Time's up !!")
+
+        # Voice alert
         
