@@ -15,3 +15,4 @@ alarm_minute = int(alarm_time[3:5])
 alarm_second = int(alarm_time[6:8])
 
 # Display 
+print('Alarm set for :',alarm_time)
