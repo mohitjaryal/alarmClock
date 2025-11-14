@@ -7,7 +7,7 @@ import os
 print('Simple alarm clock !')
 
 # User input
-alarm_time = int(input('Enter time : (HH:MM:SS)')) # hour:minute:second
+alarm_time = int(input('Enter time (HH:MM:SS):')) # hour:minute:second
 
 # Extract hour, minute, second
 alarm_hour = int(alarm_time[0:2])
