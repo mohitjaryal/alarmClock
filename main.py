@@ -23,4 +23,5 @@ while True:
 
     if(now.hour == alarm_hour and
        now.minute ==  alarm_minute and
-       now.second)
+       now.second == alarm_second):
+        
