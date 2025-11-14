@@ -30,4 +30,4 @@ while True:
 
         # Voice alert
         os.system("Time's up Sir ! Your alarm is ringing")
-        time.sleep(1) #
+        time.sleep(1) # pause program for 1 second
