@@ -26,4 +26,5 @@ while True:
        now.second == alarm_second):
         
         # Time's up message
+        print("Time's up !!")
         
